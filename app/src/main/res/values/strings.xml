@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">A4 Notes - y3487zha</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="create">CREATE</string>
+    <string name="is_important">Important?</string>
+    <string name="is_archived">Show Archived?</string>
+    <string name="important">Important</string>
+    <string name="archived">Archived</string>
+    <string name="archive">A</string>
+    <string name="delete">D</string>
+    <string name="search">Search Here</string>
+    <string name="add">+</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/navigation" app:startDestination="@id/mainScreen">
+    <fragment android:id="@+id/mainScreen" android:name="ui.assignments.a4notes.view.MainScreen" android:label="MainScreen">
+        <action android:id="@+id/action_mainScreen_to_editScreen" app:destination="@id/editScreen"/>
+        <action android:id="@+id/action_mainScreen_to_addScreen" app:destination="@id/addScreen"/>
+    </fragment>
+    <fragment android:id="@+id/editScreen" android:name="ui.assignments.a4notes.view.EditScreen" android:label="EditScreen">
+        <action android:id="@+id/action_editScreen_to_mainScreen" app:destination="@id/mainScreen"/>
+    </fragment>
+    <fragment android:id="@+id/addScreen" android:name="ui.assignments.a4notes.view.AddScreen" android:label="AddScreen">
+        <action android:id="@+id/action_addScreen_to_mainScreen" app:destination="@id/mainScreen"/>
+    </fragment>
+</navigation>
