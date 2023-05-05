@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "A4-Notes"
+rootProject.name = "Android-Notes"
 include ':app'
